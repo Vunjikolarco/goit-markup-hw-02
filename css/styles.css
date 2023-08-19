@@ -1,0 +1,144 @@
+body {
+    font-family: "Roboto",sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;   
+}
+.page-navigation {
+    background-color: #FFFFFF;
+}
+.logotype-link-web {
+    font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-align: left;
+    color: #4D5AE5;
+}
+.logotype-link-studio {
+    font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-align: left;
+    color: #2E2F42;    
+}
+.navigation-item {
+    font-family: Robot;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.address-item {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: left;
+    color: #434455;
+}
+.page-hero {
+    background: #0b1cd6;
+}
+.title-hero {
+    font-family: Roboto;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+    color: #2E2F42;  
+}
+.button-hero {
+    
+    font-family: Roboto;
+        background: #4D5AE5;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        text-align: center;
+    color: #FFFFFF;   
+}
+.title-two {
+    font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+    color: #2E2F42;   
+}
+.title-three {
+    font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+    color: #2E2F42;    
+}
+.text-advantages {
+    font-family: Roboto;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.4;
+        letter-spacing: 0.02em;
+        text-align: center;
+    color: #434455;   
+}
+.text-name {
+    font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+    color: #434455;
+}
+.team-img {
+    width: 264px;
+}
+.portfolio-img {
+    width: 360px;
+}
+.text-img {
+    font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+    color: #434455;    
+}
+.page-footer {
+    color: #FFFFFF;
+}
+.text-footer {
+    font-family: Roboto;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.33;
+        letter-spacing: 0.04em;
+        text-align: left;
+    color: #2E2F42;
+}
+link {
+    text-decoration: none;
+}
+
+list {
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+}
+
