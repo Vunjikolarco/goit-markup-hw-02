@@ -152,14 +152,3 @@ body {
     text-align: left;
     color: #4D5AE5;
 }
-link {
-    text-decoration: none;
-}
-
-list {
-    list-style-type: none;
-}
-
-button {
-    cursor: pointer;
-}
