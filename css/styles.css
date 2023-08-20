@@ -27,16 +27,16 @@ body {
     color: #2E2F42;    
 }
 .navigation-item {
-    font-family: Robot;
-        font-weight: 500;
+    font-family: Roboto;
         font-size: 16px;
+        font-weight: 500;
         line-height: 1.5;
-        text-align: center;
         letter-spacing: 0.02em;
+        text-align: left;
     color: #2E2F42;
 }
 .address-item {
-        font-family: Roboto;
+    font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
@@ -45,7 +45,7 @@ body {
     color: #434455;
 }
 .page-hero {
-    background: #0b1cd6;
+    background: #2E2F42;
 }
 .title-hero {
     font-family: Roboto;
@@ -54,10 +54,9 @@ body {
         line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
-    color: #2E2F42;  
+    color: #FFFFFF; 
 }
 .button-hero {
-    
     font-family: Roboto;
         background: #4D5AE5;
         font-size: 16px;
@@ -77,30 +76,33 @@ body {
     color: #2E2F42;   
 }
 .title-three {
-    font-family: Roboto;
+        font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        text-align: center;
+        text-align: left;
     color: #2E2F42;    
 }
 .text-advantages {
-    font-family: Roboto;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 1.4;
-        letter-spacing: 0.02em;
-        text-align: center;
-    color: #434455;   
-}
-.text-name {
-    font-family: Roboto;
+        font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        text-align: center;
+        text-align: left;
+    color: #434455;   
+}
+.page-team {
+    background: #F4F4FD;
+}
+.text-name {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1,5;
+        letter-spacing: 0.02em;
+        text-align: left;
     color: #434455;
 }
 .team-img {
@@ -115,30 +117,28 @@ body {
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        text-align: center;
+        text-align: left;
     color: #434455;    
 }
 .page-footer {
-    color: #FFFFFF;
+    background: #2E2F42;
 }
 .text-footer {
     font-family: Roboto;
-        font-size: 12px;
+        font-size: 18px;
         font-weight: 400;
-        line-height: 1.33;
-        letter-spacing: 0.04em;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
         text-align: left;
-    color: #2E2F42;
+    color: #F4F4FD;
 }
-link {
-    text-decoration: none;
+.page-footer .logotype-link-studio {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #F4F4FD;
 }
-
-list {
-    list-style-type: none;
-}
-
-button {
-    cursor: pointer;
-}
-
