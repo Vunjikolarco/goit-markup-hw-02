@@ -5,6 +5,15 @@
     --secondary-font-family: "Roboto",
         sans-serif;
 }
+.link {
+    text-decoration: none;
+}
+.menu-list {
+    list-style-type: none;
+}
+button {
+    cursor: pointer;
+}
 body {
     font-family: var(--secondary-font-family);
     background-color: #FFFFFF;   
@@ -149,13 +158,4 @@ body {
     letter-spacing: 0.03em;
     text-align: left;
     color: #4D5AE5;
-}
-.link {
-    text-decoration: none;
-}
-.menu-list {
-    list-style-type: none;
-}
-.button {
-    cursor: pointer;
 }
