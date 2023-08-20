@@ -1,33 +1,36 @@
+:root {
+    --accent-coor: #9747FF;
+    --primery-font-family: "Raleway",
+        sans-serif;
+    --secondary-font-family: "Roboto",
+        sans-serif;
+}
 body {
-    font-family: "Roboto",sans-serif;
-    color: #434455;
+    font-family: var(--secondary-font-family);
     background-color: #FFFFFF;   
 }
 .navigation-page {
     background-color: #FFFFFF;
 }
-.navigation-page .logotype-link-web {
-    font-family: "Raleway",sans-serif;
+.navigation-page .logotype .color-text {
+    font-family: var(--primery-font-family);
     font-size: 18px;
     font-weight: 700;
-    font-style: normal;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
     color: #4D5AE5;
 }
-.navigation-page .logotype-link-studio {
-    font-family: "Raleway",sans-serif;
+.navigation-page .logotype {
+    font-family: var(--primery-font-family);
     font-size: 18px;
     font-weight: 700;
-    font-style: normal;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
     color: #2E2F42;    
 }
 .navigation-page .navigation-item {
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -35,8 +38,11 @@ body {
     text-align: left;
     color: #2E2F42;
 }
-.address-menu .address-list {
-    font-family: Roboto;
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+.address-list {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -47,8 +53,7 @@ body {
 .hero-page {
     background-color: #2E2F42;
 }
- .hero-title {
-    font-family: Roboto;
+.hero-title {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -60,7 +65,6 @@ body {
     background-color: #4D5AE5;
 }
 .hero-button {
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -69,7 +73,6 @@ body {
     color: #FFFFFF;   
 }
 .title-two {
-    font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -78,7 +81,6 @@ body {
     color: #2E2F42;   
 }
 .title-three {
-    font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -87,7 +89,6 @@ body {
     color: #2E2F42; 
 }
 .advantages-text {
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -99,7 +100,6 @@ body {
     background-color: #F4F4FD;
 }
 .our-team-text {
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -132,23 +132,30 @@ body {
     text-align: left;
     color: #F4F4FD;
 }
-.footer-page .logotype-link-studio {
-    font-family: "Raleway",sans-serif;
+.footer-page .logotype {
+    font-family: var(--primery-font-family);
     font-size: 18px;
     font-weight: 700;
-    font-style: normal;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
     color: #F4F4FD;
 }
-.footer-page .logotype-link-web {
-    font-family: "Raleway",sans-serif;
+.footer-page .logotype .color-text {
+    font-family: var(--primery-font-family);
     font-size: 18px;
     font-weight: 700;
-    font-style: normal;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
     color: #4D5AE5;
+}
+.link {
+    text-decoration: none;
+}
+.menu-list {
+    list-style-type: none;
+}
+.button {
+    cursor: pointer;
 }
