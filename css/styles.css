@@ -84,8 +84,13 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
-    color: #2E2F42;    
+    color: #2E2F42; 
 }
+
+.portfolio-item .title-three {
+    text-transform: uppercase;
+}
+
 .advantages-text {
     font-family: Roboto;
     font-size: 16px;
