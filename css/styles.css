@@ -1,9 +1,7 @@
 :root {
     --accent-coor: #9747FF;
-    --primery-font-family: 'Raleway',
-        sans-serif;
-    --secondary-font-family: 'Roboto',
-        sans-serif;
+    --primery-font-family: 'Raleway', sans-serif;
+    --secondary-font-family: 'Roboto', sans-serif;
 }
 .link {
     text-decoration: none;
