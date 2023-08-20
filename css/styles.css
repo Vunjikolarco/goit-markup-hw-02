@@ -3,10 +3,10 @@ body {
     color: #434455;
     background-color: #FFFFFF;   
 }
-.page-navigation {
+.navigation-page {
     background-color: #FFFFFF;
 }
-.logotype-link-web {
+.navigation-page .logotype-link-web {
     font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
@@ -16,7 +16,7 @@ body {
         text-align: left;
     color: #4D5AE5;
 }
-.logotype-link-studio {
+.navigation-page .logotype-link-studio {
     font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
@@ -26,7 +26,7 @@ body {
         text-align: left;
     color: #2E2F42;    
 }
-.navigation-item {
+.navigation-page .navigation-item {
     font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
@@ -44,10 +44,10 @@ body {
         text-align: left;
     color: #434455;
 }
-.page-hero {
+.hero-page {
     background: #2E2F42;
 }
-.title-hero {
+.hero-title{
     font-family: Roboto;
         font-size: 56px;
         font-weight: 700;
@@ -56,7 +56,7 @@ body {
         text-align: center;
     color: #FFFFFF; 
 }
-.button-hero {
+.hero-button {
     font-family: Roboto;
         background: #4D5AE5;
         font-size: 16px;
@@ -84,7 +84,7 @@ body {
         text-align: left;
     color: #2E2F42;    
 }
-.text-advantages {
+.advantages-text {
         font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
@@ -93,10 +93,10 @@ body {
         text-align: left;
     color: #434455;   
 }
-.page-team {
+.our-team-page {
     background: #F4F4FD;
 }
-.text-name {
+.our-team-text {
         font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
@@ -105,13 +105,13 @@ body {
         text-align: left;
     color: #434455;
 }
-.team-img {
+.our-team-img {
     width: 264px;
 }
 .portfolio-img {
     width: 360px;
 }
-.text-img {
+.portfolio-text {
     font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
@@ -120,7 +120,10 @@ body {
         text-align: left;
     color: #434455;    
 }
-.text-footer {
+.footer-page {
+    background: #2E2F42;
+}
+.footer-page .footer-text {
     font-family: Roboto;
         font-size: 18px;
         font-weight: 400;
@@ -129,7 +132,7 @@ body {
         text-align: left;
     color: #F4F4FD;
 }
-.page-footer .logotype-link-studio {
+.footer-page .logotype-link-studio {
     font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-weight: 700;
