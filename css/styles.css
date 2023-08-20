@@ -45,7 +45,7 @@ body {
     color: #434455;
 }
 .hero-page {
-    background: #2E2F42;
+    background-color: #2E2F42;
 }
  .hero-title {
     font-family: Roboto;
@@ -57,7 +57,7 @@ body {
     color: #FFFFFF; 
 }
 .hero-page .hero-button {
-    background: #4D5AE5;
+    background-color: #4D5AE5;
 }
 .hero-button {
     font-family: Roboto;
@@ -96,14 +96,14 @@ body {
     color: #434455;   
 }
 .our-team-page {
-    background: #F4F4FD;
+    background-color: #F4F4FD;
 }
 .our-team-text {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 1,5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0,02em;
     text-align: left;
     color: #434455;
 }
@@ -122,23 +122,23 @@ body {
     color: #434455;    
 }
 .footer-page {
-    background: #2E2F42;
+    background-color: #2E2F42;
 }
 .footer-page .footer-text {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0,02em;
     text-align: left;
     color: #F4F4FD;
 }
 .footer-page .logotype-link-studio {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     font-style: normal;
     line-height: 1.17;
-    letter-spacing: 0.03em;
+    letter-spacing: 0,03em;
     text-align: left;
     color: #F4F4FD;
 }
@@ -148,7 +148,18 @@ body {
     font-weight: 700;
     font-style: normal;
     line-height: 1.17;
-    letter-spacing: 0.03em;
+    letter-spacing: 0,03em;
     text-align: left;
     color: #4D5AE5;
+}
+link {
+    text-decoration: none;
+}
+
+list {
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
 }
