@@ -6,6 +6,10 @@
 .link {
     text-decoration: none;
 }
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
 .menu-list {
     list-style-type: none;
 }
@@ -44,10 +48,6 @@ body {
     letter-spacing: 0.02em;
     text-align: left;
     color: #2E2F42;
-}
-.menu-link:hover,
-.menu-link:focus {
-    color: var(--accent-color);
 }
 .address-list {
     font-size: 16px;
