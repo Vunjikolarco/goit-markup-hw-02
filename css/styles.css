@@ -67,7 +67,6 @@ body {
 }
 
 .hero-page { 
-    top: 72px;
     background-color: #2E2F42;
 }
 
@@ -190,7 +189,6 @@ body {
 
 .our-team-img {
     width: 264px; 
-    height: 260px;
 }
 
 .title-mark-guerrero {
@@ -276,8 +274,7 @@ body {
 }
 
 .portfolio-img {
-    width: 360px; 
-    height: 300px;
+    width: 360px;
 }
 
 .title-banking-app {
