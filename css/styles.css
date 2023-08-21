@@ -21,7 +21,9 @@ button {
 }
 
 body {
-    font-family: 'Roboto',sans-serif;  
+    font-family: 'Roboto',sans-serif; 
+    color: #434455; 
+    background-color: #FFFFFF;
 }
 
 .navigation-page { 
@@ -328,7 +330,7 @@ body {
     color: #2E2F42;
 }
 
-.text-app {
+.text-app-meditatio {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -346,7 +348,7 @@ body {
     color: #2E2F42;
 }
 
-.text-marketing {
+.text-marketing-taxi {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -382,7 +384,7 @@ body {
     color: #2E2F42;
 }
 
-.text-marketing {
+.text-marketing-online {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
