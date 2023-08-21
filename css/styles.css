@@ -404,7 +404,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.03em;
     text-align: left;
-    color: #f4f4fd;
+    color: #F4F4FD;
 }
 
 .footer-page .logotype .color-text {
@@ -415,7 +415,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.03em;
     text-align: left;
-    color: #4d5ae5;
+    color: #4D5AE5;
 }
 
 .footer-page .footer-text {
@@ -425,4 +425,4 @@ body {
     letter-spacing: 0.02em;
     text-align: left;
     color: #F4F4FD;
-}
+}   
