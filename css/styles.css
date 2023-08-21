@@ -26,10 +26,6 @@ body {
     background-color: #FFFFFF;
 }
 
-.navigation-page { 
-    border-bottom: 1px solid #E7E9FC;
-}
-
 .navigation-page .logotype .color-text {
     font-family: var(--logotype-font-family);
     font-size: 18px;
