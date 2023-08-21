@@ -1,7 +1,6 @@
 :root {
     --accent-coor: #9747FF;
-    --primery-font-family: 'Raleway', sans-serif;
-    --secondary-font-family: 'Roboto', sans-serif;
+    --logotype-font-family: 'Raleway', sans-serif;
 }
 
 .link {
@@ -22,29 +21,31 @@ button {
 }
 
 body {
-    font-family: var(--secondary-font-family);
+    font-family: 'Roboto',sans-serif;
     background-color: #FFFFFF;   
 }
 
-.navigation-page {
-    background-color: #FFFFFF;
+.navigation-page { 
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .navigation-page .logotype .color-text {
-    font-family: var(--primery-font-family);
+    font-family: var(--logotype-font-family);
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
+    text-transform: uppercase;
     letter-spacing: 0.03em;
     text-align: left;
     color: #4D5AE5;
 }
 
 .navigation-page .logotype {
-    font-family: var(--primery-font-family);
+    font-family: var(--logotype-font-family);
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
+    text-transform: uppercase;
     letter-spacing: 0.03em;
     text-align: left;
     color: #2E2F42;    
@@ -68,7 +69,8 @@ body {
     color: #434455;
 }
 
-.hero-page {
+.hero-page { 
+    top: 72px;
     background-color: #2E2F42;
 }
 
@@ -82,10 +84,18 @@ body {
 }
 
 .hero-page .hero-button {
+    width: 169px; 
+    height: 56px; 
+    top: 428px; 
+    left: 636px; 
+    padding: 16px 32px 16px 32px; 
+    border-radius: 4px; 
+    gap: 10px;
     background-color: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px #00000026;
 }
 
-.hero-button {
+.hero-button text {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -94,66 +104,314 @@ body {
     color: #FFFFFF;   
 }
 
-.title-two {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2E2F42;   
-}
-
-.title-three {
+.title-strategy {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
-    color: #2E2F42; 
+    color: #2E2F42;
 }
 
-.advantages-text {
+.text-strategy {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
-    color: #434455;   
+    color:  #434455;
 }
 
-.our-team-page {
-    background-color: #F4F4FD;
+.title-punctuality {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color:  #2E2F42;
 }
 
-.our-team-text {
+.text-punctuality {
     font-size: 16px;
     font-weight: 400;
-    text-transform: capitalize;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
     color: #434455;
 }
 
-.our-team-img {
-    width: 264px;
+.title-diligence {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
 }
 
-.portfolio-img {
-    width: 360px;
-}
-
-.portfolio-text {
+.text-diligence {
     font-size: 16px;
     font-weight: 400;
-    text-transform: capitalize;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
-    color: #434455;    
+    color: #434455;
 }
+
+.title-technologies {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+}
+
+.text-technologies {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+}
+
+.our-team-page {
+    background-color: #F4F4FD;
+}
+
+.title-our-team {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+
+.our-team-img {
+    width: 264px; 
+    height: 260px;
+}
+
+.title-mark-guerrero {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+}
+
+.text-product-designer {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+}
+
+.title-tom-ford {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+}
+
+.text-frontend-developer {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+}
+
+.title-camila-garcia {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em; 
+    text-align: left;
+    color: #2E2F42;
+}
+
+.text-marketing {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+}
+
+.title-daniel-wilson {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+}
+
+.text-ui-designer {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+}
+
+.title-portfolio {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+
+.portfolio-img {
+    width: 360px; 
+    height: 300px;
+}
+
+.title-banking-app {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+}
+
+.text-app {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+}
+
+.title-cashless-payment {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+}
+
+.text-marketing {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+}
+
+.title-meditation-app {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+}
+
+.text-app {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+}
+
+.title-taxi-service {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+}
+
+.text-marketing {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+}
+
+.title-screen-illustrations {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+}
+
+.text-design {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+}
+
+.title-online-courses {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+}
+
+.text-marketing {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+}
+
 .footer-page {
     background-color: #2E2F42;
+}
+
+.footer-page .logotype {
+    font-family: var(--logotype-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #F4F4FD;
+}
+
+.footer-page .logotype .color-text {
+    font-family: var(--logotype-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #4D5AE5;
 }
 
 .footer-page .footer-text {
@@ -163,24 +421,4 @@ body {
     letter-spacing: 0.02em;
     text-align: left;
     color: #F4F4FD;
-}
-
-.footer-page .logotype {
-    font-family: var(--primery-font-family);
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: #F4F4FD;
-}
-
-.footer-page .logotype .color-text {
-    font-family: var(--primery-font-family);
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: #4D5AE5;
 }
