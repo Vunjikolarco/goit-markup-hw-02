@@ -21,8 +21,7 @@ button {
 }
 
 body {
-    font-family: 'Roboto',sans-serif;
-    background-color: #FFFFFF;   
+    font-family: 'Roboto',sans-serif;  
 }
 
 .navigation-page { 
@@ -64,6 +63,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
+    font-style: normal;
     letter-spacing: 0.02em;
     text-align: left;
     color: #434455;
@@ -178,13 +178,14 @@ body {
 }
 
 .our-team-page {
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
 }
 
 .title-our-team {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
+    text-transform: capitalize;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
@@ -271,6 +272,7 @@ body {
     font-size: 36px;
     font-weight: 700;
     line-height: 40px;
+    text-transform: capitalize;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
