@@ -165,7 +165,7 @@ body {
 }
 
 .our-team-page {
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 
 .title-our-team {
@@ -187,54 +187,6 @@ body {
 }
 
 .text-product-designer {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.title-tom-ford {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-
-.text-frontend-developer {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.title-camila-garcia {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em; 
-    color: #2E2F42;
-}
-
-.text-marketing {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.title-daniel-wilson {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-
-.text-ui-designer {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
