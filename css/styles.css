@@ -75,10 +75,6 @@ body {
     color: #FFFFFF; 
 }
 
-.hero-page .hero-button {
-    background-color: #4D5AE5;
-}    
-
 .hero-button:hover,
 .hero-button:focus {
     color: #404BBF;
@@ -86,10 +82,11 @@ body {
 
 .hero-button text {
     font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
+    font-weight: 500; 
+    line-height: 1.5; 
     letter-spacing: 0.04em;
-    color: #FFFFFF;   
+    color: #ffffff;
+    background-color: #4D5AE5;
 }
 
 .title-advantages {
