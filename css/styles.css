@@ -168,6 +168,9 @@ body {
     background-color: #F4F4FD;
 }
 
+.our-team-page .menu-list:hover, .menu-list:focus {
+background-color: #FFFFFF;
+}
 .title-our-team {
     font-size: 36px;
     font-weight: 700;
@@ -176,6 +179,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    background-color: #FFFFFF;
 }
 
 .title-mark-guerrero {
@@ -184,7 +188,6 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    background-color: #FFFFFF;
 }
 
 .text-product-designer {
@@ -193,7 +196,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    background-color: #FFFFFF;
 }
 
 .portfolio-title {
