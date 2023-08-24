@@ -46,12 +46,12 @@ body {
     color: #4D5AE5;    
 }
 
-.header-page .menu-list:hover, 
-.menu-list:focus {
+.header-page .nav-list:hover, 
+.nav-list:focus {
     color: #404BBF;
 } 
 
-.navigation-page .navigation-item {
+.nav-page .nav-item {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -59,7 +59,7 @@ body {
     color: #2E2F42;
 }
 
-.address-list {
+.contact-list {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
