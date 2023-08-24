@@ -117,7 +117,8 @@ body {
     background-color: #F4F4FD;
 }
 
-.our-team-page .menu-list:hover, .menu-list:focus {
+.our-team-page .menu-list:hover, 
+.menu-list:focus {
 background-color: #FFFFFF;
 }
 .title-our-team {
@@ -128,6 +129,9 @@ background-color: #FFFFFF;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+}
+
+.our-team-item {
     background-color: #FFFFFF;
 }
 
