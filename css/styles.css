@@ -1,6 +1,6 @@
 :root {
     --accent-color: #404BBF;
-    --logotype-font-family: 'Raleway', sans-serif;
+    --logotype-font-family: "Releway", sans-serif;
     --name-header: "Roboto", sans-serif;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .header-page {
-    font-family: var(--name-header);
+    font-family: var(--logotype-font-family);
     font-weight: 700;
 }
 button {
@@ -26,7 +26,7 @@ button {
 }
 
 body {
-    font-family: 'Roboto',sans-serif;  
+    font-family: var(--name-header);  
     color: #434455;
     background-color: #FFFFFF;
 }
