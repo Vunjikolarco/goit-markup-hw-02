@@ -1,6 +1,7 @@
 :root {
     --accent-color: #404BBF;
     --logotype-font-family: 'Raleway', sans-serif;
+    --name-header: "Roboto", sans-serif;
 }
 
 .link {
@@ -16,6 +17,10 @@
     list-style-type: none;
 }
 
+.header-page {
+    font-family: var(--name-header);
+    font-weight: 700;
+}
 button {
     cursor: pointer;
 }
