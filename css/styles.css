@@ -204,7 +204,6 @@ button {
 
 /* ---------------FOOTER-PAGE------------------- */
 .footer-page
-.logotype-link
 .index.html {
     font-family: var(--logotype-font-family);
     font-weight: 700;
@@ -216,7 +215,6 @@ button {
 }
 
 .footer-page
-.logotype-link
 .color-text {
     font-family: var(--logotype-font-family);
     font-weight: 700;
