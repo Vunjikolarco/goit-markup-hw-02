@@ -15,27 +15,29 @@ address {
 }
 
 .nav-page 
-.color-text {
+.logotype link {
     font-family: var(--logotype-font-family);
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17; 
     letter-spacing: 0.03em;
-    color: #2E2F42;
+    text-transform: uppercase;
 }
 
+.nav-page
+.logotype link
+.color-text {
+    color: #2E2F42;
+}
+    
 .nav-page 
-.logotype-link {
-    font-family: var(--logotype-font-family);
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
+.logotype-link
+.index.html {
     color: #4D5AE5;
 }
 
-.nav-page 
+.nav-page
+.menu-link 
 .nav-item
 .nav-list link {
     font-family: var(--name-header);
@@ -46,7 +48,8 @@ address {
     color: #2E2F42;
 }
 
-.contact-page 
+.contact-page
+.menu-link 
 .contact-item
 .contact-list {
     font-family: var(--name-header);
@@ -55,6 +58,13 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.contact-page
+.menu-link
+.contact-item
+.contact-list {
+    color: #404BBF;
 }
 
 body {
