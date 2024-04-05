@@ -51,11 +51,6 @@
 /* ---------------------------------------- */
 
 /* ------------HERO-IMAGE------------------ */
-.hero-button:hover,
-.hero-button:focus {
-    color: var(--accent-color);
-}
-
 .hero-page 
 .header-title {
     font-family: var(--name-header);
