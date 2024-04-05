@@ -52,6 +52,12 @@
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+.body {
+    font-family: var(--name-header);
+    color: #434455;
+    background-color: #FFFFFF;
+}
 /* ---------------------------------------- */
 
 /* ------------HERO-IMAGE------------------ */
