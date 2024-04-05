@@ -116,6 +116,7 @@ button {
 
 /* --------------SECTION-ADVANTAGES--------------- */
 .advantages-page
+.advantages
 .menu-list
 .title {
     font-family: var(--name-header);
@@ -127,6 +128,7 @@ button {
 }
 
 .advantages-page
+.advantages
 .menu-list
 .text {
     font-family: var(--name-header);
