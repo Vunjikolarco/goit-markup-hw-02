@@ -5,6 +5,11 @@
 }
 
 /* ----------------HEADER-LOGO-------------- */
+.nav-item:hover
+.nav-item:focus {
+    color: #404BBF;
+}
+
 .nav-page 
 .color-text {
     font-family: var(--logotype-font-family);
@@ -58,7 +63,6 @@
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    align-items: center;
 }
 
 .hero-page 
