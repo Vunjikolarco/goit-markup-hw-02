@@ -76,7 +76,7 @@ body {
 
 /* ------------HERO-IMAGE------------------ */
 .hero-page 
-.header-title {
+.hero-title {
     font-family: var(--name-header);
     font-weight: 700;
     font-size: 56px;
@@ -100,8 +100,8 @@ body {
     background-color: #4D5AE5;
 }
 
-.hero-button:hover
-.hero-button:focus {
+.hero-button link:hover
+.hero-button link:focus {
     background-color: #404BBF;
 }
 
