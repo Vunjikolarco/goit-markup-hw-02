@@ -1,7 +1,7 @@
 :root {
     --accent-color: #404BBF;
-    --logotype-font-family: "Releway",sans-serif;
-    --name-header: "Roboto",sans-serif;
+    --logotype-font-family: "Releway", sans-serif;
+    --name-header: "Roboto", sans-serif;
 }
 
 /* ----------------HEADER-LOGO-------------- */
@@ -204,7 +204,8 @@ button {
 
 /* ---------------FOOTER-PAGE------------------- */
 .footer-page
-.logotype-link {
+.logotype-link
+.index.html {
     font-family: var(--logotype-font-family);
     font-weight: 700;
     font-size: 18px;
@@ -215,6 +216,7 @@ button {
 }
 
 .footer-page
+.logotype-link
 .color-text {
     font-family: var(--logotype-font-family);
     font-weight: 700;
