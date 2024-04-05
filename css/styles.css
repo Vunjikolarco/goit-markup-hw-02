@@ -1,7 +1,7 @@
 :root {
     --accent-color: #404BBF;
-    --logotype-font-family: 'Releway',sans-serif;
-    --name-header: 'Roboto',sans-serif;
+    --logotype-font-family: 'Releway', sans-serif;
+    --name-header: 'Roboto', sans-serif;
 }
 
 /* ----------------HEADER-LOGO-------------- */
@@ -10,8 +10,7 @@
     font-family: var(--logotype-font-family);
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.17;
-    text-transform: uppercase;
+    line-height: 1.17; 
     letter-spacing: 0.03em;
     color: #2E2F42;
 }
