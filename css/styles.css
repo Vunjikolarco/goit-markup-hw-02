@@ -202,6 +202,7 @@ button {
 
 .portfolio-page
 .menu-list-portfolio
+.portfolio-item
 .title {
     font-family: var(--name-header);
     font-weight: 500;
@@ -213,6 +214,7 @@ button {
 
 .portfolio-page
 .menu-list-portfolio
+.portfolio-item
 .text {
     font-family: var(--name-header);
     font-weight: 400;
