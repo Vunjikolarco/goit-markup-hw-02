@@ -156,6 +156,7 @@ button {
 
 .our-team-page
 .menu-list
+.our-team-item
 .title {
     font-family: var(--name-header);
     font-weight: 500;
@@ -167,6 +168,7 @@ button {
 
 .our-team-page
 .menu-list
+.our-team-item
 .text {
     font-family: var(--name-header);
     font-weight: 400;
