@@ -15,24 +15,24 @@ address {
 }
 
 .nav-page 
-.logotype {
+.logotype
+.color-text {
     font-family: var(--logotype-font-family);
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17; 
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-
-.nav-page
-.logotype
-.color-text {
     color: #2E2F42;
 }
-    
-.nav-page 
-.logotype
-.index.html {
+
+.nav-page .logotype .index.html {
+    font-family: var(--logotype-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #4D5AE5;
 }
 
