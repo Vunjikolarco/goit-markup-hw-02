@@ -15,7 +15,7 @@ address {
 }
 
 .nav-page 
-.logotype link {
+.logotype {
     font-family: var(--logotype-font-family);
     font-size: 18px;
     font-weight: 700;
@@ -25,13 +25,13 @@ address {
 }
 
 .nav-page
-.logotype link
+.logotype
 .color-text {
     color: #2E2F42;
 }
     
 .nav-page 
-.logotype-link
+.logotype
 .index.html {
     color: #4D5AE5;
 }
