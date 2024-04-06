@@ -146,8 +146,10 @@ button {
     font-family: var(--name-header);
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
     color: #2E2F42;
 }
 
@@ -171,6 +173,10 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.our-team-page {
+    background-color: #F4F4FD;
 }
 /* ------------------------------------------- */
 
