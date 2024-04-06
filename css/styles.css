@@ -116,8 +116,8 @@ button {
 
 /* --------------SECTION-ADVANTAGES--------------- */
 .advantages-page
-.advantages
 .menu-list
+.advantages
 .title {
     font-family: var(--name-header);
     font-weight: 500;
@@ -128,8 +128,8 @@ button {
 }
 
 .advantages-page
-.advantages
 .menu-list
+.advantages
 .text {
     font-family: var(--name-header);
     font-weight: 400;
@@ -177,6 +177,10 @@ button {
 
 .our-team-page {
     background-color: #F4F4FD;
+}
+
+.our-team-item {
+    background-color: #FFFFFF;
 }
 /* ------------------------------------------- */
 
