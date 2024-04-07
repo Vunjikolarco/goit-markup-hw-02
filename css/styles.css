@@ -38,7 +38,8 @@ address {
 
 .nav-page,
 .menu-link,
-.nav-item {
+.nav-item,
+.nav-list {
     font-family: var(--name-header);
     font-size: 16px;
     font-weight: 500;
@@ -54,7 +55,8 @@ address {
 
 .contact-page,
 .menu-link,
-.contact-item {
+.contact-item,
+.contact-list {
     font-family: var(--name-header);
     font-size: 16px;
     font-weight: 400;
