@@ -38,8 +38,7 @@ address {
 
 .nav-page,
 .menu-link,
-.nav-item,
-.nav-list {
+.nav-item {
     font-family: var(--name-header);
     font-size: 16px;
     font-weight: 500;
@@ -55,8 +54,7 @@ address {
 
 .contact-page,
 .menu-link,
-.contact-item,
-.contact-list {
+.contact-item {
     font-family: var(--name-header);
     font-size: 16px;
     font-weight: 400;
@@ -75,6 +73,12 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+
+body:hover,
+body:focus {
+    color: #404BBF;
+}
+
 /* ---------------------------------------- */
 
 /* ------------HERO-IMAGE------------------ */
