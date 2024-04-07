@@ -15,23 +15,24 @@ address {
 }
 
 .nav-page 
-.logotype {
+.logotype-link {
     font-family: var(--logotype-font-family);
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17; 
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-
-.logotype,
-.color-text {
-    color: #2E2F42;
-}
-
-.logotype,
-.index.html {
     color: #4D5AE5;
+}
+
+.nav-page .color-text {
+    font-family: var(--logotype-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
 }
 
 .nav-page
@@ -58,7 +59,7 @@ address {
     color: #434455;
 }
 
-.contact-item,
+.contact-item,b
 .contact-list {
     color: #404BBF;
 }
