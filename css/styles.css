@@ -24,14 +24,12 @@ address {
     text-transform: uppercase;
 }
 
-.nav-page
-.logotype
+.logotype,
 .color-text {
     color: #2E2F42;
 }
 
-.nav-page
-.logotype
+.logotype,
 .index.html {
     color: #4D5AE5;
 }
@@ -60,9 +58,7 @@ address {
     color: #434455;
 }
 
-.contact-page
-.menu-link
-.contact-item
+.contact-item,
 .contact-list {
     color: #404BBF;
 }
