@@ -55,9 +55,9 @@ address {
     color: #404BBF;
 }
 
-.contact-page
-.menu-link 
-.contact-item
+.contact-page,
+.menu-link,
+.contact-item,
 .contact-list {
     font-family: var(--name-header);
     font-size: 16px;
@@ -67,7 +67,7 @@ address {
     color: #434455;
 }
 
-.contact-item,b
+.contact-item,
 .contact-list {
     color: #404BBF;
 }
@@ -80,7 +80,7 @@ body {
 /* ---------------------------------------- */
 
 /* ------------HERO-IMAGE------------------ */
-.hero-page 
+.hero-page,
 .hero-title {
     font-family: var(--name-header);
     font-weight: 700;
@@ -91,7 +91,7 @@ body {
     color: #FFFFFF;
 }
 
-.hero-page 
+.hero-page,
 .hero-button {
     font-family: var(--name-header);
     font-weight: 500;
@@ -120,9 +120,9 @@ button {
 /* --------------------------------------- */
 
 /* --------------SECTION-ADVANTAGES--------------- */
-.advantages-page
-.menu-list
-.advantages
+.advantages-page,
+.menu-list,
+.advantages,
 .title {
     font-family: var(--name-header);
     font-weight: 500;
@@ -132,9 +132,9 @@ button {
     color: #2E2F42;
 }
 
-.advantages-page
-.menu-list
-.advantages
+.advantages-page,
+.menu-list,
+.advantages,
 .text {
     font-family: var(--name-header);
     font-weight: 400;
@@ -146,7 +146,7 @@ button {
 /* ----------------------------------------- */
 
 /* ---------------SECTION-OUR-TEAM-------------- */
-.our-team-page
+.our-team-page,
 .title-our-team {
     font-family: var(--name-header);
     font-weight: 700;
@@ -158,9 +158,9 @@ button {
     color: #2E2F42;
 }
 
-.our-team-page
-.menu-list
-.our-team-item
+.our-team-page,
+.menu-list,
+.our-team-item,
 .title {
     font-family: var(--name-header);
     font-weight: 500;
@@ -170,9 +170,9 @@ button {
     color: #2E2F42;
 }
 
-.our-team-page
-.menu-list
-.our-team-item
+.our-team-page,
+.menu-list,
+.our-team-item,
 .text {
     font-family: var(--name-header);
     font-weight: 400;
@@ -192,7 +192,7 @@ button {
 /* ------------------------------------------- */
 
 /* --------------SECTION-OUR-PORTFOLIO------------ */
-.portfolio-page
+.portfolio-page,
 .portfolio-title {
     font-family: var(--name-header);
     font-weight: 700;
@@ -204,9 +204,9 @@ button {
     text-transform: capitalize;
 }
 
-.portfolio-page
-.menu-list-portfolio
-.portfolio-item
+.portfolio-page,
+.menu-list-portfolio,
+.portfolio-item,
 .title {
     font-family: var(--name-header);
     font-weight: 500;
@@ -216,9 +216,9 @@ button {
     color: #2E2F42;
 }
 
-.portfolio-page
-.menu-list-portfolio
-.portfolio-item
+.portfolio-page,
+.menu-list-portfolio,
+.portfolio-item,
 .text {
     font-family: var(--name-header);
     font-weight: 400;
@@ -234,7 +234,7 @@ button {
 /* --------------------------------------------- */
 
 /* ---------------FOOTER-PAGE------------------- */
-.footer-page
+.footer-page,
 .logotype-link {
     font-family: var(--logotype-font-family);
     font-weight: 700;
@@ -245,7 +245,7 @@ button {
     color: #4D5AE5;
 }
 
-.footer-page
+.footer-page,
 .color-text {
     font-family: var(--logotype-font-family);
     font-weight: 700;
@@ -256,7 +256,7 @@ button {
     color: #F4F4FD;
 }
 
-.footer-page
+.footer-page,
 .footer-text {
     font-family: var(--name-header);
     font-weight: 400;
