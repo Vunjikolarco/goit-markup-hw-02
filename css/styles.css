@@ -48,8 +48,6 @@ address {
     color: #2E2F42;
 }
 
-.nav-page,
-.menu-link,
 .nav-item:hover,
 .nav-item:focus {
     color: #404BBF;
