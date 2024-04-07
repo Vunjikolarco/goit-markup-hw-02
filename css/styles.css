@@ -5,7 +5,7 @@
 }
 
 /* ----------------HEADER-LOGO-------------- */
-.nav-page:hover
+.nav-page:hover,
 .nav-page:focus {
     color: #404BBF;
 }
@@ -14,7 +14,7 @@ address {
     font-style: normal;
 }
 
-.nav-page 
+.nav-page, 
 .logotype {
     font-family: var(--logotype-font-family);
     font-size: 18px;
@@ -25,7 +25,8 @@ address {
     color: #4D5AE5;
 }
 
-.nav-page .color-text {
+.nav-page,
+.color-text {
     font-family: var(--logotype-font-family);
     font-size: 18px;
     font-weight: 700;
@@ -35,9 +36,9 @@ address {
     color: #2E2F42;
 }
 
-.nav-page
-.menu-link 
-.nav-item
+.nav-page,
+.menu-link,
+.nav-item,
 .nav-list {
     font-family: var(--name-header);
     font-size: 16px;
@@ -47,8 +48,8 @@ address {
     color: #2E2F42;
 }
 
-.nav-page
-.menu-link
+.nav-page,
+.menu-link,
 .nav-item:hover,
 .nav-item:focus {
     color: #404BBF;
