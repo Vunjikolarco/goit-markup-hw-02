@@ -26,7 +26,7 @@ address {
 }
 
 .nav-page,
-.color-text {
+.span {
     font-family: var(--logotype-font-family);
     font-size: 18px;
     font-weight: 700;
