@@ -69,6 +69,11 @@ address {
     color: #404BBF;
 }
 
+.contact-list:hover,
+.contact-list:focus {
+    color: #404BBF;
+}
+
 body {
     font-family: var(--name-header);
     color: #434455;
