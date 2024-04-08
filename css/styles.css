@@ -10,6 +10,12 @@
     color: #404BBF;
 }
 
+body {
+    font-family: var(--name-header);
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
 address {
     font-style: normal;
 }
