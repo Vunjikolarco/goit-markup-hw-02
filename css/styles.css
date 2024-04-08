@@ -64,28 +64,16 @@ address {
     color: #434455;
 }
 
-.contact-list,
-.contact-list {
-    color: #404BBF;
-}
-
 .contact-list:hover,
 .contact-list:focus {
     color: #404BBF;
 }
 
-.contact-list,
-.body {
+.contact-list {
     font-family: var(--name-header);
     color: #434455;
     background-color: #FFFFFF;
 }
-
-body:hover,
-body:focus {
-    color: #404BBF;
-}
-
 /* ---------------------------------------- */
 
 /* ------------HERO-IMAGE------------------ */
