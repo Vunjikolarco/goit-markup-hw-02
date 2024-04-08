@@ -5,8 +5,8 @@
 }
 
 /* ----------------HEADER-LOGO-------------- */
-.nav-page:hover,
-.nav-page:focus {
+.nav-list:hover,
+.nav-list:focus {
     color: #404BBF;
 }
 
@@ -65,7 +65,7 @@ address {
     color: #434455;
 }
 
-.contact-item,
+.contact-list,
 .contact-list {
     color: #404BBF;
 }
