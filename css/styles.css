@@ -33,10 +33,6 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-
-.nav-page,
-.span {
     color: #2E2F42;
 }
 
@@ -59,15 +55,12 @@ address {
 
 .contact-page,
 .menu-link,
-.contact-item {
+.contact-list {
     font-family: var(--name-header);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-
-.contact-list {
     color: #434455;
 }
 
