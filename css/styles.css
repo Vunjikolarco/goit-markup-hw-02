@@ -35,6 +35,12 @@ address {
     color: #2E2F42;
 }
 
+body {
+    font-family: var(--name-header);
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
 .nav-page,
 .menu-link,
 .nav-item,
