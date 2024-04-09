@@ -75,12 +75,6 @@ address {
 .nav-page {
     background-color: #FFFFFF;
 }
-
-body {
-    font-family: var(--name-header);
-    color: #434455;
-    background-color: #FFFFFF;
-}
 /* ---------------------------------------- */
 
 /* ------------HERO-IMAGE------------------ */
