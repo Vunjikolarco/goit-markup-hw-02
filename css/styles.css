@@ -31,14 +31,12 @@ address {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2E2F42;
+    text-transform: uppercase; 
 }
 
-body {
-    font-family: var(--name-header);
-    color: #434455;
-    background-color: #FFFFFF;
+.nav-page,
+.color-text {
+    color: #2E2F42;
 }
 
 .nav-page,
