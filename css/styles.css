@@ -16,8 +16,8 @@ address {
 .nav-page, 
 .logotype {
     font-family: var(--logotype-font-family);
-    font-size: 18px;
     font-weight: 700;
+    font-size: 18px;
     line-height: 1.17; 
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -27,8 +27,8 @@ address {
 .nav-page,
 .color-text {
     font-family: var(--logotype-font-family);
-    font-size: 18px;
     font-weight: 700;
+    font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -69,6 +69,12 @@ address {
 }
 
 .nav-page {
+    background-color: #FFFFFF;
+}
+
+body {
+    font-family: var(--name-header);
+    color: #434455;
     background-color: #FFFFFF;
 }
 /* ---------------------------------------- */
