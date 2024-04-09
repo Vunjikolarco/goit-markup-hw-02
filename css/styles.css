@@ -15,7 +15,7 @@ address {
 
 .nav-page, 
 .logotype {
-    font-family: var(--logotype-font-family);
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17; 
@@ -26,7 +26,7 @@ address {
 
 .nav-page,
 .color-text {
-    font-family: var(--logotype-font-family);
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -34,13 +34,12 @@ address {
     text-transform: uppercase; 
 }
 
-.nav-page,
-.color-text {
+.header-color-text {
     color: #2E2F42;
 }
 
 body {
-    font-family: var(--name-header);
+    font-family: Roboto, sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
