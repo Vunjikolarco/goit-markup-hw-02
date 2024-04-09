@@ -239,7 +239,7 @@ button {
 /* ---------------FOOTER-PAGE------------------- */
 .footer-page,
 .logotype-link {
-    font-family: var(--logotype-font-family);
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -250,7 +250,7 @@ button {
 
 .footer-page,
 .color-text {
-    font-family: var(--logotype-font-family);
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
