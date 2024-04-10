@@ -20,7 +20,6 @@ address {
     font-size: 18px;
     line-height: 1.17; 
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #4D5AE5;
 }
 
@@ -31,7 +30,6 @@ address {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #2E2F42; 
 }
 
@@ -194,6 +192,14 @@ button {
 .our-team-item {
     background-color: #FFFFFF;
 }
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
 /* ------------------------------------------- */
 
 /* --------------SECTION-OUR-PORTFOLIO------------ */
@@ -246,7 +252,6 @@ button {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #4D5AE5;
 }
 
@@ -257,7 +262,6 @@ button {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
 }
 
 .footer-page,
